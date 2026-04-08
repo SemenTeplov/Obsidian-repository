@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"aee801f86d7bfd04","x":-1240,"y":-1400,"width":1097,"height":820,"type":"group","label":"Propagation"},
+		{"id":"051aa582f3870e57","x":-520,"y":-180,"width":203,"height":59,"type":"text","text":"@Transactional"},
+		{"id":"4039165de4194b4b","x":-200,"y":-189,"width":250,"height":78,"type":"text","text":"Создание прокси над помеченным методом"},
+		{"id":"e48aee1debc9d5d1","type":"text","text":"Transactional Manager","x":-213,"y":-420,"width":276,"height":50},
+		{"id":"a432ae54d49d6355","x":-200,"y":-320,"width":250,"height":78,"type":"text","text":"Открытие / Закрытие транзакции"},
+		{"id":"133ac75319b7b63c","x":140,"y":-438,"width":250,"height":86,"type":"text","text":"Управление JDBC подключением"},
+		{"id":"2ff3e9e23f3d4ecb","x":-1220,"y":-1380,"width":334,"height":273,"type":"text","text":"Required (по умолчанию): моему методу нужна транзакци, либо открой для меня новую, либо используй существующую → `getConnection()_._ setAutocommit(false). commit().`"},
+		{"id":"21f40eac2fef512b","x":-860,"y":-1380,"width":334,"height":220,"type":"text","text":"Require_new: я хочу полностью свою собственную транзакцию → `getConnection(). setAutocommit(false). commit().`"},
+		{"id":"5a674c100979aab2","x":-1220,"y":-1078,"width":334,"height":206,"type":"text","text":"Supports: мне на самом деле неважно, открыта транзакция или нет, я могу работать и так, и так → никакого отношения к JDBC"},
+		{"id":"38ecf24b7dc9c03a","x":-860,"y":-1137,"width":334,"height":265,"type":"text","text":"Not_Supported: я на самом деле не люблю транзакции, я даже пытаюсь остановить текущую, уже работающую транзакцию → никакого отношения к JDBC"},
+		{"id":"4eefb545cf9a738a","x":-500,"y":-1380,"width":337,"height":180,"type":"text","text":"Nested: это звучит так сложно, но мы просто говорим о точках сохранения! → `connection.setSavepoint()`"},
+		{"id":"bad59cdd4c79911c","x":-1220,"y":-840,"width":334,"height":240,"type":"text","text":"Mandatory: я не собираюсь открывать транзакцию самостоятельно, но я буду плакать, если больше никто ее не откроет → никакого отношения к JDBC"},
+		{"id":"25d33562deb4a578","x":-863,"y":-840,"width":337,"height":160,"type":"text","text":"Never: я буду плакать, если кто-то другой откроет транзакцию → никакого отношения к JDBC"}
+	],
+	"edges":[
+		{"id":"3dcbd05f23b5b433","fromNode":"051aa582f3870e57","fromSide":"right","toNode":"4039165de4194b4b","toSide":"left"},
+		{"id":"7390b073afd073db","fromNode":"e48aee1debc9d5d1","fromSide":"bottom","toNode":"a432ae54d49d6355","toSide":"top"},
+		{"id":"ad3902490e5ac6f1","fromNode":"a432ae54d49d6355","fromSide":"bottom","toNode":"4039165de4194b4b","toSide":"top"},
+		{"id":"b7f7b968e6ed9613","fromNode":"e48aee1debc9d5d1","fromSide":"right","toNode":"133ac75319b7b63c","toSide":"left"},
+		{"id":"610526492e2d94d0","fromNode":"aee801f86d7bfd04","fromSide":"bottom","toNode":"051aa582f3870e57","toSide":"top"}
+	]
+}

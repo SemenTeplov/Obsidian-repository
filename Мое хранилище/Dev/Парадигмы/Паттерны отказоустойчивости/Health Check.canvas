@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"16f68e727f2fcc77","x":175,"y":40,"width":484,"height":1073,"type":"group","label":"Метрики"},
+		{"id":"768e6daa2b2e04e6","x":-520,"y":40,"width":484,"height":480,"type":"group","label":"Метрики"},
+		{"id":"e6f493cdf8c59bca","x":100,"y":-420,"width":634,"height":331,"type":"group","label":"Внутрений"},
+		{"id":"eb37ffdaca67055d","type":"group","x":-520,"y":-420,"width":484,"height":396,"label":"Внешний"},
+		{"id":"cd083652af07063f","type":"group","x":120,"y":-360,"width":290,"height":181,"label":"Service"},
+		{"id":"217a5cacfc160149","type":"group","x":-240,"y":-222,"width":174,"height":169,"label":"Metric"},
+		{"id":"9e8408d9b340f7d8","type":"group","x":540,"y":-354,"width":174,"height":169,"label":"Metric"},
+		{"id":"433a0042c91d391b","type":"text","text":"Service","x":-500,"y":-400,"width":114,"height":60},
+		{"id":"624786995c6ccb0e","type":"text","text":"Health Check","x":-246,"y":-400,"width":190,"height":60},
+		{"id":"6800bea98b23a2ab","type":"text","text":"Библиотека Metric","x":140,"y":-340,"width":250,"height":60},
+		{"id":"832b222e97459494","type":"text","text":"System Metric","x":140,"y":-259,"width":250,"height":60},
+		{"id":"6bac38861c5b7c72","type":"text","text":"Alert","x":580,"y":-334,"width":94,"height":50},
+		{"id":"4c738cb70d22bcba","type":"text","text":"Visualize","x":560,"y":-255,"width":134,"height":50},
+		{"id":"18d2da6ef638c7bc","x":-500,"y":60,"width":444,"height":282,"type":"text","text":"Время безотказной работы — этот показатель отвечает на извечный вопрос: «Работает ли мой сервис и выполняет ли он свои функции?» После того как программа проверки работоспособности пропингует ваш сервис, если он ответит, значит, он работает. Если сервис не отвечает, значит, он не работает."},
+		{"id":"f526e4e604c6b6d4","x":-500,"y":360,"width":444,"height":140,"type":"text","text":"Субъективная задержка — необходимо проверять задержку при использовании сервиса из разных точек."},
+		{"id":"e7dbaeb7f1c1997d","type":"text","text":"Visualize","x":-220,"y":-123,"width":134,"height":50},
+		{"id":"118e81a3a43b9886","type":"text","text":"Alert","x":-200,"y":-202,"width":94,"height":50},
+		{"id":"fe3d9495a540dca2","x":195,"y":60,"width":444,"height":80,"type":"text","text":"Частота запросов — насколько загружен ваш сервис?"},
+		{"id":"b520821998f71e67","x":195,"y":181,"width":444,"height":115,"type":"text","text":"Частота ошибок. Возникают ли ошибки в работе вашего сервиса? Если да, то сколько их и как часто они происходят?"},
+		{"id":"3f6b7c0bb7582b13","x":195,"y":322,"width":444,"height":138,"type":"text","text":"Время отклика (на запросы) — сколько времени требуется вашему сервису для ответа на запросы?"},
+		{"id":"198fa39a54b23754","x":195,"y":487,"width":444,"height":133,"type":"text","text":"Насыщенность — насколько перегружен ваш сервис? Сколько у него есть возможностей для роста?"},
+		{"id":"72f3c581973b477c","x":195,"y":660,"width":444,"height":72,"type":"text","text":"Использование — насколько загружен этот ресурс?"},
+		{"id":"ae145faf4262f455","x":195,"y":780,"width":444,"height":199,"type":"text","text":"Насыщенность — насколько загружен наиболее ограниченный ресурс приложения, влияющий на его производительность / способность нормально функционировать?"},
+		{"id":"b59c2ee70a2d8f97","x":195,"y":1020,"width":444,"height":73,"type":"text","text":"Ошибки. Сколько ошибок содержит ресурс?"}
+	],
+	"edges":[
+		{"id":"11ff7f6eab2caaaf","fromNode":"433a0042c91d391b","fromSide":"right","toNode":"624786995c6ccb0e","toSide":"left"},
+		{"id":"20077a3c852e00d5","fromNode":"624786995c6ccb0e","fromSide":"bottom","toNode":"217a5cacfc160149","toSide":"top"},
+		{"id":"b8c50d662914bc40","fromNode":"6800bea98b23a2ab","fromSide":"right","toNode":"9e8408d9b340f7d8","toSide":"left"},
+		{"id":"bce10be47bcf1110","fromNode":"832b222e97459494","fromSide":"right","toNode":"9e8408d9b340f7d8","toSide":"left"},
+		{"id":"d88b648af7afb946","fromNode":"eb37ffdaca67055d","fromSide":"bottom","toNode":"768e6daa2b2e04e6","toSide":"top"},
+		{"id":"de0087e1763b9991","fromNode":"e6f493cdf8c59bca","fromSide":"bottom","toNode":"16f68e727f2fcc77","toSide":"top"}
+	]
+}

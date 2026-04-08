@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"20ac48c336afad53","x":-180,"y":-220,"width":152,"height":68,"type":"text","text":"@Column"},
+		{"id":"f2c4be07c37d6865","x":-294,"y":-620,"width":380,"height":305,"type":"text","text":"@Column является частью Jakarta Persistence API (JPA) и используется в классах сущностей для указания сведений о столбце, в котором хранится определенное поле. Если аннотация @Column не указана, JPA автоматически сопоставляет имя поля с одноименным столбцом."}
+	],
+	"edges":[
+		{"id":"32f4e32d874c7c16","fromNode":"20ac48c336afad53","fromSide":"top","toNode":"f2c4be07c37d6865","toSide":"bottom"}
+	]
+}

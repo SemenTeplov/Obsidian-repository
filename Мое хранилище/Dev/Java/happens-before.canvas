@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"c6f9e362cb7a57c3","x":-640,"y":-360,"width":398,"height":704,"type":"group","label":"Способы синхранизации"},
+		{"id":"28e602aba13238e1","x":-120,"y":-60,"width":193,"height":68,"type":"text","text":"happens-before"},
+		{"id":"0a3b554814624408","x":160,"y":-167,"width":292,"height":283,"type":"text","text":"Гарантирует, что если операция A happens-before операции B, то результаты A видны B, независимо от фактического порядка выполнения на аппаратном уровне."},
+		{"id":"f89e0d8f5023dbf5","x":-620,"y":-220,"width":358,"height":119,"type":"text","text":"final thread action: последнее действие в треде выполняется до закрытия треда"},
+		{"id":"27b07b388c2748bd","x":-620,"y":-280,"width":132,"height":50,"type":"text","text":"volatile"},
+		{"id":"7b6116f84cd9456a","x":-620,"y":-340,"width":173,"height":50,"type":"text","text":"monitor lock"},
+		{"id":"b61c0087aa3d3517","x":-620,"y":-87,"width":358,"height":107,"type":"text","text":"thread start action: запуск треда происходит до первой команды в треде"},
+		{"id":"4a8812364c837ac4","x":-620,"y":36,"width":358,"height":144,"type":"text","text":"thread interrupt action: сначала выполняется interrupt, и после него выполняется выход из треда"},
+		{"id":"e586cd6467018993","x":-620,"y":200,"width":358,"height":124,"type":"text","text":"default initialization: действие происходит до первого обращения к параметру"}
+	],
+	"edges":[
+		{"id":"785d1ec63ddf7a1c","fromNode":"28e602aba13238e1","fromSide":"right","toNode":"0a3b554814624408","toSide":"left"},
+		{"id":"0a4129ba1a71c8f2","fromNode":"28e602aba13238e1","fromSide":"left","toNode":"c6f9e362cb7a57c3","toSide":"right"}
+	]
+}

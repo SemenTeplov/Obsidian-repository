@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"268fbe57b81b39bb","type":"group","x":-100,"y":-60,"width":550,"height":116,"label":"Полу-открыт"},
+		{"id":"d4281dbebfd4e867","x":-460,"y":-280,"width":550,"height":96,"type":"group","label":"Закрыт"},
+		{"id":"e98e2d5f28f28fc4","type":"group","x":240,"y":-280,"width":550,"height":96,"label":"Открыт"},
+		{"id":"c006f3eacb3ebf8a","x":-440,"y":-260,"width":115,"height":56,"type":"text","text":"Service"},
+		{"id":"489ce5c0c1e3fb87","x":-285,"y":-260,"width":193,"height":56,"type":"text","text":"Circuit Breaker"},
+		{"id":"7e2f8755ca7b0ccd","type":"text","text":"Service","x":-45,"y":-260,"width":115,"height":56},
+		{"id":"8901d285a079c501","x":-460,"y":-560,"width":550,"height":192,"type":"text","text":"Осуществляется передача запросов между сервисами, подсчитывается число сбоев. Когда количество сбоев за определенное время превышает пороговое значение, выключатель прокси-сервера переводится в **Open**-состояние."},
+		{"id":"1ae54bc441ce46a9","type":"text","text":"Service","x":260,"y":-260,"width":115,"height":56},
+		{"id":"d765bff2db2b1e75","type":"text","text":"Circuit Breaker","x":415,"y":-260,"width":193,"height":56},
+		{"id":"ac416cf5bc7364f7","type":"text","text":"Service","x":655,"y":-260,"width":115,"height":56},
+		{"id":"3064acfb9f937472","x":237,"y":-528,"width":550,"height":160,"type":"text","text":"Запросы, поступающие от исходного сервиса, немедленно возвращаются с ошибкой. Когда заданный тайм-аут истекает, выключатель переводится в **Half-Open**-состояние."},
+		{"id":"f62ffeca0404a3d1","type":"text","text":"Service","x":-80,"y":-36,"width":115,"height":68},
+		{"id":"5b9bb364b1083bcd","type":"text","text":"Circuit Breaker","x":75,"y":-36,"width":193,"height":68},
+		{"id":"0d3a58911d150704","type":"text","text":"Service","x":315,"y":-36,"width":115,"height":68},
+		{"id":"a899ca9318d9bb79","x":-100,"y":140,"width":550,"height":223,"type":"text","text":" Автоматический выключатель пропускает ограниченное число запросов от исходного сервиса, подсчитывая количество успешных запросов. Когда нужное число достигнуто, то выключатель перейдет в **Closed**-состояние. В обратном случае он вернется в статус **Open**."}
+	],
+	"edges":[
+		{"id":"142b5c4635ef2d63","fromNode":"c006f3eacb3ebf8a","fromSide":"right","toNode":"489ce5c0c1e3fb87","toSide":"left"},
+		{"id":"115a7404724d2aa3","fromNode":"489ce5c0c1e3fb87","fromSide":"right","toNode":"7e2f8755ca7b0ccd","toSide":"left"},
+		{"id":"3ca9b938ab40291e","fromNode":"d4281dbebfd4e867","fromSide":"top","toNode":"8901d285a079c501","toSide":"bottom"},
+		{"id":"6c954e78e4a67c9e","fromNode":"1ae54bc441ce46a9","fromSide":"right","toNode":"d765bff2db2b1e75","toSide":"left"},
+		{"id":"1d86231a6545ec81","fromNode":"d4281dbebfd4e867","fromSide":"right","toNode":"e98e2d5f28f28fc4","toSide":"left"},
+		{"id":"8d06868d17ca1bc2","fromNode":"e98e2d5f28f28fc4","fromSide":"top","toNode":"3064acfb9f937472","toSide":"bottom"},
+		{"id":"c4f7edab48593fc3","fromNode":"f62ffeca0404a3d1","fromSide":"right","toNode":"5b9bb364b1083bcd","toSide":"left"},
+		{"id":"0932d7c22a3e5ed6","fromNode":"5b9bb364b1083bcd","fromSide":"right","toNode":"0d3a58911d150704","toSide":"left","color":"3"},
+		{"id":"8e3b61a48ce19e4e","fromNode":"268fbe57b81b39bb","fromSide":"bottom","toNode":"a899ca9318d9bb79","toSide":"top"},
+		{"id":"4fe642706eddf73a","fromNode":"e98e2d5f28f28fc4","fromSide":"bottom","toNode":"268fbe57b81b39bb","toSide":"right"},
+		{"id":"1c7d6c8cb55b2af7","fromNode":"268fbe57b81b39bb","fromSide":"left","toNode":"d4281dbebfd4e867","toSide":"bottom"}
+	]
+}

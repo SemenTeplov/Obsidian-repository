@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "9d3e2d44a219664e",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "b75aa156875aa6fa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Домашняя.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Домашняя"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -164,13 +160,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Домашняя.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Домашняя"
+              "title": "Структура"
             }
           },
           {
@@ -198,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,17 +212,32 @@
   },
   "active": "1d8cb34e75e41e60",
   "lastOpenFiles": [
-    "Домашняя.md",
-    "Dev/Kubernetes.canvas",
+    "Dev/Spring/@Column.canvas",
+    "Dev/Spring/@Table.canvas",
+    "Dev/Парадигмы/Паттерны отказоустойчивости/Bulkhead.canvas",
+    "Dev/Парадигмы/Паттерны отказоустойчивости/Circuit Breaker.canvas",
+    "Dev/Парадигмы/Паттерны отказоустойчивости/Health Check.canvas",
+    "Dev/Парадигмы/SOLID.canvas",
+    "Dev/Парадигмы/Паттерны отказоустойчивости",
+    "Dev/Парадигмы/SOLID.md",
+    "Dev/Парадигмы/REST.canvas",
+    "Заметки/Способы создания потоков.md",
+    "Заметки/Состояния потоков, методы при работе с потоками.md",
+    "Заметки/Проблемы многопоточности. Их решение. Мониторинг.md",
+    "Заметки/@Autowired.md",
+    "Dev/Java/happens-before.canvas",
+    "Dev/Java",
+    "Dev/Spring/@Transactional.canvas",
+    "Dev/Spring",
     "Dev/Kafka.canvas",
+    "Dev/Kubernetes.canvas",
+    "Dev/Парадигмы",
+    "Домашняя.md",
     "Dev/Dev.md",
     "Untitled.md",
     "Dev",
-    "EverGreen.canvas",
     "Вопросы от сбер.md",
-    "Планирование дня.canvas",
     "Заметки/Control plane.md",
-    "Untitled.canvas",
     "Заметки/Безымянная Kanban-доска.md",
     "Kanban-доска.md",
     "Заметки/Tomcat.md",
@@ -242,17 +252,11 @@
     "Заметки/Spring WebFlux.md",
     "Заметки/Spring Web MVC.md",
     "Заметки/Spring Core Container.md",
-    "Заметки/@Autowired.md",
     "Заметки/@Qualifier.md",
-    "Заметки/@Cacheable.md",
-    "Заметки/Kotlin + Hibernate.md",
-    "Заметки/Введение в Kubernetes.md",
-    "Заметки/Использование агрегатных функций..md",
     "Tags",
     "Без названия",
     "Заметки",
     "Ресурсы",
-    "Шаблоны",
-    "Стандарты"
+    "Шаблоны"
   ]
 }

@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"15bcad094b99fb70","x":-500,"y":-500,"width":1316,"height":560,"type":"group","label":"Первый вариант"},
+		{"id":"3754c2d9862f25e5","x":-500,"y":160,"width":1324,"height":340,"type":"group","label":"Второй вариант"},
+		{"id":"00dd0ddbcb459989","x":-480,"y":-420,"width":576,"height":437,"type":"group","label":"Без перегородки"},
+		{"id":"2186022a1aaf5aaa","type":"group","x":220,"y":-420,"width":576,"height":437,"label":"С перегородкой"},
+		{"id":"6391b9b8a2f6141c","x":-480,"y":300,"width":1284,"height":160,"type":"group","label":"Микросервис"},
+		{"id":"c110e92fc7858c9a","x":-460,"y":-60,"width":143,"height":57,"type":"text","text":"Сервис 1"},
+		{"id":"66bcf43659f04dbf","x":-317,"y":-248,"width":250,"height":88,"type":"text","text":"Важный ресурс"},
+		{"id":"4cf643409af6dbaf","x":-240,"y":-400,"width":96,"height":60,"type":"text","text":"Вход"},
+		{"id":"a639ea0b8a878c16","type":"text","text":"Сервис 2","x":-67,"y":-60,"width":143,"height":57},
+		{"id":"7c966cf58f4af1a5","type":"text","text":"Сервис 1","x":240,"y":-52,"width":143,"height":58},
+		{"id":"7adc0f44877ab2ac","type":"text","text":"Важный ресурс","x":383,"y":-244,"width":125,"height":90},
+		{"id":"276899393d8d9e02","type":"text","text":"Вход","x":460,"y":-400,"width":96,"height":61},
+		{"id":"cb5bedaa5fe98b00","type":"text","text":"Важный ресурс","x":508,"y":-244,"width":125,"height":90},
+		{"id":"7afd569b702c7b30","type":"text","text":"Сервис 2","x":633,"y":-52,"width":143,"height":58},
+		{"id":"5385711192912c4c","x":-98,"y":180,"width":138,"height":64,"type":"text","text":"Клиент 1"},
+		{"id":"f03d6b081fd73943","type":"text","text":"Клиент 2","x":111,"y":180,"width":138,"height":64},
+		{"id":"53ced74b82c551bf","type":"text","text":"Клиент 3","x":328,"y":180,"width":138,"height":64},
+		{"id":"c79b9d35841e28b8","x":-460,"y":349,"width":340,"height":71,"type":"text","text":"Первый экземпляр сервиса"},
+		{"id":"2288730e64a45fdf","type":"text","text":"Второй экземпляр сервиса","x":25,"y":349,"width":318,"height":71},
+		{"id":"8e6d3b37f6a9adf1","type":"text","text":"Третий экземпляр сервиса","x":466,"y":349,"width":318,"height":71}
+	],
+	"edges":[
+		{"id":"cd4e9ef0fed74ab3","fromNode":"4cf643409af6dbaf","fromSide":"bottom","toNode":"66bcf43659f04dbf","toSide":"top"},
+		{"id":"619cbc1969db2e8d","fromNode":"66bcf43659f04dbf","fromSide":"bottom","toNode":"c110e92fc7858c9a","toSide":"top"},
+		{"id":"0e3e148bdffa1689","fromNode":"66bcf43659f04dbf","fromSide":"bottom","toNode":"a639ea0b8a878c16","toSide":"top"},
+		{"id":"cd8e53e5c261dc8f","fromNode":"276899393d8d9e02","fromSide":"bottom","toNode":"7adc0f44877ab2ac","toSide":"top"},
+		{"id":"30ade942c23666ca","fromNode":"7adc0f44877ab2ac","fromSide":"bottom","toNode":"7c966cf58f4af1a5","toSide":"top"},
+		{"id":"91136605b3345b1a","fromNode":"276899393d8d9e02","fromSide":"bottom","toNode":"cb5bedaa5fe98b00","toSide":"top"},
+		{"id":"edfcaf1084e7d983","fromNode":"cb5bedaa5fe98b00","fromSide":"bottom","toNode":"7afd569b702c7b30","toSide":"top"},
+		{"id":"84eed667539d556d","fromNode":"5385711192912c4c","fromSide":"bottom","toNode":"c79b9d35841e28b8","toSide":"top"},
+		{"id":"861ad88f4ee56415","fromNode":"f03d6b081fd73943","fromSide":"bottom","toNode":"2288730e64a45fdf","toSide":"top"},
+		{"id":"9ee0ea547fe5aa4a","fromNode":"53ced74b82c551bf","fromSide":"bottom","toNode":"8e6d3b37f6a9adf1","toSide":"top"}
+	]
+}
