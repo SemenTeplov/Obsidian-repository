@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"a5d0d02c0cd5a8bf","x":-423,"y":300,"width":457,"height":1420,"type":"group","label":"Параметры"},
+		{"id":"417ed80e7c726c8b","type":"group","x":280,"y":-680,"width":436,"height":751,"label":"Особенности"},
+		{"id":"58dbdeaadd2515ae","type":"group","x":-600,"y":-127,"width":217,"height":198,"label":"Опции"},
+		{"id":"9e1014e4f3fd9b3b","type":"text","text":"EXPLINE","x":-140,"y":-60,"width":131,"height":51},
+		{"id":"5b7ee38d34fc2a0d","type":"text","text":"Оператор EXPLAIN позволяет визуализировать план выполнения запроса — пошаговое описание того, как база данных извлекает данные при выполнении запроса. Проанализировав план, можно определить, использует ли наиболее эффективный путь выполнения, и при необходимости выявить области, которые можно оптимизировать.","x":-317,"y":-420,"width":486,"height":280},
+		{"id":"dc8c022996a297f2","type":"text","text":"Оптимизация медленных запросов. Функция определяет, какая часть запроса занимает больше всего времени, что позволяет сосредоточиться на оптимизации конкретных операций.","x":300,"y":-660,"width":396,"height":231},
+		{"id":"bbc3d1a7e7e409f0","type":"text","text":"Выявление неэффективных операций: подсвечиваются неэффективные объединения, сканирование таблиц (например, полное сканирование таблиц) и плохо работающие фильтры.","x":300,"y":-399,"width":396,"height":220},
+		{"id":"9e5602eb46bcbb00","type":"text","text":"VERBOSE","x":-580,"y":-18,"width":177,"height":69},
+		{"id":"795397013e6d99c4","type":"text","text":"ANALIZER","x":-574,"y":-107,"width":165,"height":69},
+		{"id":"7c65b0b7383f676a","type":"text","text":"Этот параметр предоставляет дополнительную информацию, например о том, как объединяются таблицы и осуществляется доступ к ним, а также сведения об индексах.","x":-1120,"y":-34,"width":360,"height":249},
+		{"id":"acde2fea8dd0b26f","type":"text","text":"Этот параметр выполняет запрос и предоставляет статистику в реальном времени, что очень удобно для оценки фактической производительности запроса.","x":-1120,"y":-272,"width":360,"height":200},
+		{"id":"005e9bbcba46f97a","type":"text","text":"Анализ использования индексов. План выполнения запроса показывает, используется ли индекс, и если нет, то почему его создание может быть целесообразным.","x":300,"y":-149,"width":396,"height":200},
+		{"id":"c5ead534bdac7549","x":-403,"y":320,"width":417,"height":158,"type":"text","text":"Seq Scan on orders - Запрос выполняет последовательное сканирование таблицы orders, то есть просматривает ее строку за строкой."},
+		{"id":"ee16a2a4fd501411","type":"text","text":"cost - Это примерная стоимость выполнения запроса.","x":-403,"y":500,"width":417,"height":100},
+		{"id":"80f6286d75095f49","type":"text","text":"rows - Оценка количества возвращаемых строк.","x":-403,"y":620,"width":417,"height":100},
+		{"id":"5a0a450fc2dfbee4","type":"text","text":"width - Средний размер каждой строки в байтах.","x":-403,"y":740,"width":417,"height":100},
+		{"id":"4c30cc779b182e88","type":"text","text":"Index Scan - Запрос использует сканирование индекса в таблице orders.","x":-403,"y":860,"width":417,"height":120},
+		{"id":"6d966a7370c11004","type":"text","text":"Index Cond - Здесь показано условие, используемое для фильтрации данных.","x":-403,"y":1000,"width":417,"height":100},
+		{"id":"18987db11775c955","type":"text","text":"Index Cond - Реальное время, затраченное на выполнение каждого этапа запроса.","x":-403,"y":1120,"width":417,"height":120},
+		{"id":"2265d35508b9081d","type":"text","text":"Hash Join - Оптимизатор запросов выбрал хэш-соединение для объединения данных из двух таблиц.","x":-403,"y":1260,"width":417,"height":120},
+		{"id":"b6b2423e33e7b5d2","type":"text","text":"Hash Cond - Показывает условие, при котором выполняется объединение.","x":-403,"y":1400,"width":417,"height":100},
+		{"id":"b9ddd23444d1e487","type":"text","text":"Seq Scan- Таблица customers считывается с помощью последовательного сканирования, а таблица orders — с помощью индекса по полю order_date.","x":-403,"y":1520,"width":417,"height":180}
+	],
+	"edges":[
+		{"id":"9b8373026227bcfc","fromNode":"9e1014e4f3fd9b3b","fromSide":"top","toNode":"5b7ee38d34fc2a0d","toSide":"bottom"},
+		{"id":"c581144b8b927db1","fromNode":"5b7ee38d34fc2a0d","fromSide":"right","toNode":"417ed80e7c726c8b","toSide":"left"},
+		{"id":"3b024e4b48b3462a","fromNode":"9e1014e4f3fd9b3b","fromSide":"left","toNode":"58dbdeaadd2515ae","toSide":"right"},
+		{"id":"fcb718853093f465","fromNode":"795397013e6d99c4","fromSide":"left","toNode":"acde2fea8dd0b26f","toSide":"right"},
+		{"id":"9d4fbe440866d3ff","fromNode":"9e5602eb46bcbb00","fromSide":"left","toNode":"7c65b0b7383f676a","toSide":"right"},
+		{"id":"b4389c0b383ee9e6","fromNode":"c5ead534bdac7549","fromSide":"right","toNode":"9e1014e4f3fd9b3b","toSide":"bottom"},
+		{"id":"57210791a3b8b20d","fromNode":"ee16a2a4fd501411","fromSide":"right","toNode":"9e1014e4f3fd9b3b","toSide":"bottom"},
+		{"id":"bde8b2ff18b2c48a","fromNode":"80f6286d75095f49","fromSide":"right","toNode":"9e1014e4f3fd9b3b","toSide":"bottom"},
+		{"id":"85fc895d2a77d7e6","fromNode":"5a0a450fc2dfbee4","fromSide":"right","toNode":"9e1014e4f3fd9b3b","toSide":"bottom"},
+		{"id":"ab65eab886f999fb","fromNode":"4c30cc779b182e88","fromSide":"left","toNode":"795397013e6d99c4","toSide":"right"},
+		{"id":"b5eb846022b6e0cf","fromNode":"6d966a7370c11004","fromSide":"left","toNode":"795397013e6d99c4","toSide":"right"},
+		{"id":"c52dff406f65b109","fromNode":"18987db11775c955","fromSide":"left","toNode":"795397013e6d99c4","toSide":"right"},
+		{"id":"9e3c9a1d444a44c2","fromNode":"2265d35508b9081d","fromSide":"left","toNode":"9e5602eb46bcbb00","toSide":"right"},
+		{"id":"398ddc9b06d9a219","fromNode":"b6b2423e33e7b5d2","fromSide":"left","toNode":"9e5602eb46bcbb00","toSide":"right"},
+		{"id":"185973c17bc49e38","fromNode":"b9ddd23444d1e487","fromSide":"left","toNode":"9e5602eb46bcbb00","toSide":"right"}
+	]
+}

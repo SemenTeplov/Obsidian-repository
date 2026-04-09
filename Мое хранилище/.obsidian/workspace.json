@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9d3e2d44a219664e",
+        "id": "5dec111070158d2a",
         "type": "tabs",
         "children": [
           {
-            "id": "b75aa156875aa6fa",
+            "id": "cd0c7e3809f4b6cf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "type": "canvas",
+              "state": {
+                "file": "Dev/SQL/Explain.canvas",
+                "viewState": {
+                  "x": -439.31977334769834,
+                  "y": 196.50336672272942,
+                  "zoom": -0.22798033318710503
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Explain"
             }
           }
         ]
@@ -71,7 +78,7 @@
             }
           },
           {
-            "id": "6155ade819073f38",
+            "id": "9d492c47b82b3e10",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -80,7 +87,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -193,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 364.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,12 +214,21 @@
       "bases:Создать новую базу": false,
       "obsidian-kanban:Создать новую доску": false,
       "homepage:Open homepage": false,
-      "periodic-notes:Open today": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "1d8cb34e75e41e60",
+  "active": "cd0c7e3809f4b6cf",
   "lastOpenFiles": [
+    "Dev/Парадигмы/REST.canvas",
+    "Dev/SQL/Блокировки строк.canvas",
+    "Dev/SQL/Стратегии JOIN.canvas",
+    "Dev/SQL/Индексы.canvas",
+    "Dev/SQL/SQL.md",
+    "Dev/SQL/Explain.canvas",
+    "Вопросы от сбер.md",
+    "Dev/SQL",
+    "Домашняя.md",
     "Dev/Spring/@Column.canvas",
     "Dev/Spring/@Table.canvas",
     "Dev/Парадигмы/Паттерны отказоустойчивости/Bulkhead.canvas",
@@ -220,23 +237,16 @@
     "Dev/Парадигмы/SOLID.canvas",
     "Dev/Парадигмы/Паттерны отказоустойчивости",
     "Dev/Парадигмы/SOLID.md",
-    "Dev/Парадигмы/REST.canvas",
     "Заметки/Способы создания потоков.md",
     "Заметки/Состояния потоков, методы при работе с потоками.md",
     "Заметки/Проблемы многопоточности. Их решение. Мониторинг.md",
     "Заметки/@Autowired.md",
-    "Dev/Java/happens-before.canvas",
     "Dev/Java",
-    "Dev/Spring/@Transactional.canvas",
     "Dev/Spring",
-    "Dev/Kafka.canvas",
-    "Dev/Kubernetes.canvas",
     "Dev/Парадигмы",
-    "Домашняя.md",
     "Dev/Dev.md",
     "Untitled.md",
     "Dev",
-    "Вопросы от сбер.md",
     "Заметки/Control plane.md",
     "Заметки/Безымянная Kanban-доска.md",
     "Kanban-доска.md",
@@ -252,11 +262,9 @@
     "Заметки/Spring WebFlux.md",
     "Заметки/Spring Web MVC.md",
     "Заметки/Spring Core Container.md",
-    "Заметки/@Qualifier.md",
     "Tags",
     "Без названия",
     "Заметки",
-    "Ресурсы",
-    "Шаблоны"
+    "Ресурсы"
   ]
 }

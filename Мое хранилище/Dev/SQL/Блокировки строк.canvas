@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"c38d0456e4a1ab46","x":-284,"y":-327,"width":294,"height":967,"type":"group","label":"Блокировки"},
+		{"id":"71e83b79d00a5d7b","x":-264,"y":-307,"width":250,"height":60,"type":"text","text":"FOR UPDATE"},
+		{"id":"280905da56bf3232","x":60,"y":-333,"width":268,"height":113,"type":"text","text":"Предполагает полное изменение (или удаление) строки."},
+		{"id":"dce8e2c3bfbcf2bb","x":60,"y":-200,"width":268,"height":320,"type":"text","text":"Изменение только тех полей, которые не входят в уникальные индексы (иными словами, при таком изменении все внешние ключи остаются без изменений)."},
+		{"id":"8273e253df44fc1a","x":-260,"y":-80,"width":250,"height":80,"type":"text","text":"FOR NO KEY UPDATE"},
+		{"id":"a0a46dca670766e5","x":60,"y":160,"width":268,"height":260,"type":"text","text":"Применяется, когда нужно прочитать строку, но при этом нельзя допустить, чтобы она как-либо изменилась другой транзакцией."},
+		{"id":"11a317c9c0b7e099","type":"text","text":"FOR SHARE","x":-260,"y":260,"width":250,"height":60},
+		{"id":"7139ad8672f491be","type":"text","text":"FOR KEY SHARE","x":-260,"y":560,"width":250,"height":60},
+		{"id":"4913323cfd0c8ca3","x":60,"y":430,"width":268,"height":320,"type":"text","text":"Допускает изменение строки, но только не ключевых полей. Этот режим, в частности, автоматически используется PostgreSQL при проверке внешних ключей."}
+	],
+	"edges":[
+		{"id":"774209ea620fe20c","fromNode":"71e83b79d00a5d7b","fromSide":"right","toNode":"280905da56bf3232","toSide":"left"},
+		{"id":"4ac9cc1fbba1d1a6","fromNode":"8273e253df44fc1a","fromSide":"right","toNode":"dce8e2c3bfbcf2bb","toSide":"left"},
+		{"id":"656bf34cb335d6fb","fromNode":"11a317c9c0b7e099","fromSide":"right","toNode":"a0a46dca670766e5","toSide":"left"},
+		{"id":"60ef05239d458977","fromNode":"7139ad8672f491be","fromSide":"right","toNode":"4913323cfd0c8ca3","toSide":"left"}
+	]
+}
