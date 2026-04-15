@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"9c43c692bcfdb7cf","x":-554,"y":140,"width":380,"height":261,"type":"text","text":"PagingAndSortingRepository — расширяет CrudRepository, добавляя возможности пагинации (разбивки данных на страницы) и сортировки. Предоставляет методы для получения сущностей с указанием пагинационных параметров."},
+		{"id":"3187e3a8d07e94ae","x":-554,"y":460,"width":380,"height":340,"type":"text","text":"JpaRepository -  расширяет PagingAndSortingRepository, добавляя JPA-специфичные методы. Включает дополнительные возможности, такие как сброс персистентного контекста (flush()), пакетные операции удаления (deleteAllInBatch()) и другие методы, связанные с JPA."},
+		{"id":"693ef71c2568f5ab","x":-554,"y":-480,"width":380,"height":220,"type":"text","text":"Repository — базовый маркерный интерфейс, основа всех репозиториев. Принимает класс домена (сущности) и тип идентификатора в качестве аргументов типа."},
+		{"id":"b4abfff9a4bbe57c","x":-579,"y":-160,"width":431,"height":220,"type":"text","text":"CrudRepository — добавляет базовые CRUD-операции (Create, Read, Update, Delete). Включает методы для сохранения, получения, обновления и удаления сущностей, а также проверки их существования."}
+	],
+	"edges":[
+		{"id":"4e2105f0f540ac40","fromNode":"693ef71c2568f5ab","fromSide":"bottom","toNode":"b4abfff9a4bbe57c","toSide":"top"},
+		{"id":"6a32576ec63e6010","fromNode":"b4abfff9a4bbe57c","fromSide":"bottom","toNode":"9c43c692bcfdb7cf","toSide":"top"},
+		{"id":"74c2c7e59dcf65bc","fromNode":"9c43c692bcfdb7cf","fromSide":"bottom","toNode":"3187e3a8d07e94ae","toSide":"top"}
+	]
+}

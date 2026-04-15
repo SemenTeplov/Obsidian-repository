@@ -40,7 +40,8 @@
   "expandedSpaces": [
     "/",
     "//Dev",
-    "//Dev/Dev/SQL"
+    "//Dev/Dev/SQL",
+    "//Dev/Dev/Spring"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

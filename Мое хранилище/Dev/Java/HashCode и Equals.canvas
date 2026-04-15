@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"8a39a2261aca6fa6","x":-149,"y":-213,"width":250,"height":73,"type":"text","text":"Правило переопределения"},
+		{"id":"2f8a8d3f332dcc55","x":-740,"y":-540,"width":250,"height":171,"type":"text","text":"Рефлексивность - объект должен равняться самому себе"},
+		{"id":"4c41bdad40662a4c","x":-480,"y":-538,"width":250,"height":84,"type":"text","text":"Симметричность - если a = b то и b = a"},
+		{"id":"0c509adf474e131f","x":-220,"y":-540,"width":250,"height":115,"type":"text","text":"Транзиктивность - если a = b и и = с то и a = c"},
+		{"id":"9d728a27428556ac","x":59,"y":-540,"width":270,"height":220,"type":"text","text":"Согласованность - сравнение объектов с одними и теми же значениями должны давать один и тот же результат"},
+		{"id":"f69a98557a6e6872","x":353,"y":-540,"width":250,"height":147,"type":"text","text":"Сравнение Null - при сравнении с null, всегда должно быть false."}
+	],
+	"edges":[
+		{"id":"5d6df51c44afd4cf","fromNode":"8a39a2261aca6fa6","fromSide":"top","toNode":"2f8a8d3f332dcc55","toSide":"bottom"},
+		{"id":"32258e77250f6ef4","fromNode":"8a39a2261aca6fa6","fromSide":"top","toNode":"4c41bdad40662a4c","toSide":"bottom"},
+		{"id":"e683351427568386","fromNode":"8a39a2261aca6fa6","fromSide":"top","toNode":"0c509adf474e131f","toSide":"bottom"},
+		{"id":"c07604fb2a707dfe","fromNode":"8a39a2261aca6fa6","fromSide":"top","toNode":"9d728a27428556ac","toSide":"bottom"},
+		{"id":"743e0c24f3303c2b","fromNode":"8a39a2261aca6fa6","fromSide":"top","toNode":"f69a98557a6e6872","toSide":"bottom"}
+	]
+}

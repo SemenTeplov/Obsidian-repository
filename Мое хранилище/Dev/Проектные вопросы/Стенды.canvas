@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"c6cb1ea33bddcae7","x":-486,"y":-318,"width":166,"height":60,"type":"text","text":"Dev стенд"},
+		{"id":"f72e6d5b08ee48d3","x":-486,"y":-240,"width":166,"height":60,"type":"text","text":"Тест стенд"},
+		{"id":"abd370a7a2999d72","x":-486,"y":-160,"width":264,"height":80,"type":"text","text":"Нагрузочное тестирование стенд"},
+		{"id":"edbcb036a396ae08","x":-486,"y":-60,"width":198,"height":60,"type":"text","text":"Pre Prod стенд"},
+		{"id":"5afbe1c58a4f3f30","x":-486,"y":20,"width":148,"height":60,"type":"text","text":"Prod стенд"}
+	],
+	"edges":[]
+}

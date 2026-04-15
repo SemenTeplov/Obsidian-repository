@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5dec111070158d2a",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "cd0c7e3809f4b6cf",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Dev/SQL/Explain.canvas",
+                "file": "Dev/Spring/@Transactional.canvas",
                 "viewState": {
-                  "x": -439.31977334769834,
-                  "y": 196.50336672272942,
-                  "zoom": -0.22798033318710503
+                  "x": -377.472625698324,
+                  "y": -601.8281443377447,
+                  "zoom": -0.9857242948473294
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Explain"
+              "title": "@Transactional"
             }
           }
         ]
@@ -78,7 +78,7 @@
             }
           },
           {
-            "id": "9d492c47b82b3e10",
+            "id": "9b67b8f664dc0170",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -218,23 +218,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cd0c7e3809f4b6cf",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Dev/Парадигмы/REST.canvas",
-    "Dev/SQL/Блокировки строк.canvas",
     "Dev/SQL/Стратегии JOIN.canvas",
-    "Dev/SQL/Индексы.canvas",
+    "Dev/Проектные вопросы/Стенды.canvas",
+    "Dev/Проектные вопросы/Проектные вопросы.md",
+    "Dev/Проектные вопросы",
+    "Dev/Kafka.canvas",
+    "Dev/Spring/Spring Data JPA.canvas",
+    "Dev/Spring/@Transactional.canvas",
+    "Домашняя.md",
+    "Dev/Spring/Lifecycle bean.canvas",
+    "Вопросы от сбер.md",
+    "Dev/Java/HashCode и Equals.canvas",
     "Dev/SQL/SQL.md",
     "Dev/SQL/Explain.canvas",
-    "Вопросы от сбер.md",
+    "Dev/Парадигмы/REST.canvas",
+    "Dev/SQL/Блокировки строк.canvas",
+    "Dev/SQL/Индексы.canvas",
     "Dev/SQL",
-    "Домашняя.md",
-    "Dev/Spring/@Column.canvas",
-    "Dev/Spring/@Table.canvas",
-    "Dev/Парадигмы/Паттерны отказоустойчивости/Bulkhead.canvas",
-    "Dev/Парадигмы/Паттерны отказоустойчивости/Circuit Breaker.canvas",
-    "Dev/Парадигмы/Паттерны отказоустойчивости/Health Check.canvas",
-    "Dev/Парадигмы/SOLID.canvas",
     "Dev/Парадигмы/Паттерны отказоустойчивости",
     "Dev/Парадигмы/SOLID.md",
     "Заметки/Способы создания потоков.md",
@@ -261,10 +263,8 @@
     "Заметки/Spring Data.md",
     "Заметки/Spring WebFlux.md",
     "Заметки/Spring Web MVC.md",
-    "Заметки/Spring Core Container.md",
     "Tags",
     "Без названия",
-    "Заметки",
-    "Ресурсы"
+    "Заметки"
   ]
 }
