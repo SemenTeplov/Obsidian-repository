@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"ae9348b784b8991f","x":301,"y":-301,"width":419,"height":2361,"type":"group","label":"Conditional"},
+		{"id":"af8253dacef4c8b8","x":-132,"y":-255,"width":250,"height":75,"type":"text","text":"Создание Maven или Gradle проекта"},
+		{"id":"723d214497680dda","x":-132,"y":-160,"width":250,"height":80,"type":"text","text":"Добавление зависимостей"},
+		{"id":"0899585a16e817fb","x":-132,"y":-60,"width":250,"height":84,"type":"text","text":"Добавление сервисов"},
+		{"id":"99fd8cf68da325fa","x":-153,"y":60,"width":292,"height":140,"type":"text","text":"Добавление конфигураций с помощью @ConfigurationProperties"},
+		{"id":"d73ac4a0ba1bb8cc","x":-153,"y":220,"width":292,"height":320,"type":"text","text":"Добавление авто конфигурации с помощью анотаций @Configuration, @EnableConfigurationProperties, @Bean и @Conditional. Он размещается в папке resourses -> META-INF -> spring"},
+		{"id":"9ca3fbf948813747","x":-132,"y":580,"width":250,"height":60,"type":"text","text":"Запаковка"},
+		{"id":"720c4820bd19717a","x":321,"y":-281,"width":379,"height":161,"type":"text","text":"Пользовательский @Conditional (наследуется от @Conditional и переопределяется метод matches())"},
+		{"id":"801e26de1b33dee8","x":321,"y":-100,"width":379,"height":196,"type":"text","text":"@ConditionalOnProperty — позволяет включать или исключать бины или конфигурацию в зависимости от значения определённого свойства в Spring Environment."},
+		{"id":"7c0b207421f3a7dc","x":321,"y":120,"width":379,"height":120,"type":"text","text":"@ConditionalOnClass — создаёт бин только при наличии указанного класса в classpath."},
+		{"id":"7e772c96017e3ac8","x":321,"y":260,"width":379,"height":160,"type":"text","text":"@ConditionalOnMissingClass — аналогична @ConditionalOnClass, но проверяет отсутствие класса в classpath."},
+		{"id":"076d9820bb5808b9","x":321,"y":440,"width":379,"height":170,"type":"text","text":"@ConditionalOnBean — позволяет создавать бин в зависимости от наличия других бинов в контексте приложения."},
+		{"id":"5a706a46766e20ed","x":322,"y":623,"width":378,"height":157,"type":"text","text":"@ConditionalOnMissingBean — создаёт бин только если другой бин того же типа не зарегистрирован в контексте приложения."},
+		{"id":"c56b0eaa84095b4e","x":322,"y":800,"width":378,"height":160,"type":"text","text":"@ConditionalOnResource — включает конфигурацию при наличии определённого ресурса (например, файла) в classpath."},
+		{"id":"c2931eead9d61e61","x":322,"y":980,"width":378,"height":120,"type":"text","text":"@ConditionalOnWebApplication — создаёт бин, если приложение работает в веб-среде."},
+		{"id":"24c8952b7ced2640","x":322,"y":1120,"width":378,"height":140,"type":"text","text":"@ConditionalOnNotWebApplication — создаёт бин, если приложение не является веб-приложением."},
+		{"id":"6599cf9f6c23fb54","x":322,"y":1280,"width":378,"height":120,"type":"text","text":"@ConditionalOnExpression — включает конфигурацию на основе результата выражения SpEL."},
+		{"id":"4e59945907aa7915","x":322,"y":1420,"width":378,"height":120,"type":"text","text":"@ConditionalOnJava — позволяет настроить условия в зависимости от версии Java."},
+		{"id":"1eec2a19d9873534","x":322,"y":1560,"width":378,"height":200,"type":"text","text":"@ConditionalOnCloudPlatform — создаёт бин при работе приложения на определённой облачной платформе (например, AWS, GCP, Cloud Foundry)."},
+		{"id":"90b636e17b87c3e9","x":322,"y":1785,"width":378,"height":255,"type":"text","text":"@ConditionalOnWarDeployment и @ConditionalOnNotWarDeployment — определяют условия в зависимости от того, является ли приложение традиционным WAR-приложением, развёрнутым в сервлет-контейнере."}
+	],
+	"edges":[
+		{"id":"0656f16afe6c4645","fromNode":"af8253dacef4c8b8","fromSide":"bottom","toNode":"723d214497680dda","toSide":"top"},
+		{"id":"d7c64c8f87b8660d","fromNode":"723d214497680dda","fromSide":"bottom","toNode":"0899585a16e817fb","toSide":"top"},
+		{"id":"cc7383a82904e27d","fromNode":"0899585a16e817fb","fromSide":"bottom","toNode":"99fd8cf68da325fa","toSide":"top"},
+		{"id":"89e7fa7101f024e1","fromNode":"99fd8cf68da325fa","fromSide":"bottom","toNode":"d73ac4a0ba1bb8cc","toSide":"top"},
+		{"id":"918272833ac89f11","fromNode":"d73ac4a0ba1bb8cc","fromSide":"bottom","toNode":"9ca3fbf948813747","toSide":"top"}
+	]
+}

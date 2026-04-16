@@ -8,21 +8,21 @@
 		{"id":"140f4b5813ac57cd","type":"text","text":"postProcessorBeforeInitialization","x":-660,"y":-183,"width":355,"height":50},
 		{"id":"e249a4941c9730eb","type":"text","text":"Внедрение бинов","x":-607,"y":-40,"width":250,"height":60},
 		{"id":"28cbec10a1e76b2b","type":"text","text":"@PreDestroy","x":440,"y":-188,"width":250,"height":60},
-		{"id":"62861ddf77181973","x":-296,"y":-995,"width":336,"height":111,"type":"text","text":"Определяет что будет до инициализации и после инициализации бинов"},
+		{"id":"62861ddf77181973","type":"text","text":"Определяет что будет до инициализации и после инициализации бинов","x":-296,"y":-995,"width":336,"height":111},
 		{"id":"53103b243e6069d1","type":"text","text":"BeanDefinitionRegistryPostProcessor","x":-2310,"y":-560,"width":399,"height":60},
-		{"id":"51583740aca9ccec","x":-2760,"y":-555,"width":353,"height":50,"type":"text","text":"Отвечает за регистрацию бинов"},
-		{"id":"d18b511b276d8c57","x":-2063,"y":-183,"width":303,"height":50,"type":"text","text":"postProcessBeanFactory"},
-		{"id":"d2a73f266550bd4e","x":-2523,"y":-183,"width":381,"height":51,"type":"text","text":"postProcessBeanDefinitionRegistry"},
-		{"id":"c57ffa85dd7d1503","x":-1307,"y":-556,"width":402,"height":58,"type":"text","text":"InstantiationAwareBeanPostProcessor"},
-		{"id":"2f552e107afc5292","x":-857,"y":-367,"width":250,"height":60,"type":"text","text":"postProcessProperties"},
-		{"id":"74baa05feba5afbf","x":-1249,"y":-188,"width":286,"height":55,"type":"text","text":"postProcessAfterInstantion"},
-		{"id":"3d90a90fb3a7399c","x":-1680,"y":-183,"width":316,"height":50,"type":"text","text":"postProcessBeforeInstantion"},
-		{"id":"4dbf905d46c7da17","x":-1720,"y":-1177,"width":250,"height":60,"type":"text","text":"Создание бинов"},
-		{"id":"2f097228a9601602","type":"text","text":"BeanFactoryPostProcessor","x":-1262,"y":-1175,"width":299,"height":58},
-		{"id":"354e157e9d6abd32","x":-1262,"y":-995,"width":299,"height":52,"type":"text","text":"postProcessBeanFactory"},
-		{"id":"50269a0a56a5fa6c","x":47,"y":160,"width":277,"height":60,"type":"text","text":"XML - опция init-method"},
-		{"id":"134efb98dd080a04","x":-557,"y":160,"width":304,"height":107,"type":"text","text":"интерфейс InitializingBean и метод afterPropertiesSet()"},
-		{"id":"874eedf6d1322330","x":-253,"y":360,"width":250,"height":60,"type":"text","text":"init() метод"}
+		{"id":"51583740aca9ccec","type":"text","text":"Отвечает за регистрацию бинов","x":-2760,"y":-555,"width":353,"height":50},
+		{"id":"d18b511b276d8c57","type":"text","text":"postProcessBeanFactory","x":-2063,"y":-183,"width":303,"height":50},
+		{"id":"d2a73f266550bd4e","type":"text","text":"postProcessBeanDefinitionRegistry","x":-2523,"y":-183,"width":381,"height":51},
+		{"id":"c57ffa85dd7d1503","type":"text","text":"InstantiationAwareBeanPostProcessor","x":-1307,"y":-556,"width":402,"height":58},
+		{"id":"2f552e107afc5292","type":"text","text":"postProcessProperties","x":-857,"y":-367,"width":250,"height":60},
+		{"id":"74baa05feba5afbf","type":"text","text":"postProcessAfterInstantion","x":-1249,"y":-188,"width":286,"height":55},
+		{"id":"3d90a90fb3a7399c","type":"text","text":"postProcessBeforeInstantion","x":-1680,"y":-183,"width":316,"height":50},
+		{"id":"50269a0a56a5fa6c","type":"text","text":"XML - опция init-method","x":47,"y":160,"width":277,"height":60},
+		{"id":"134efb98dd080a04","type":"text","text":"интерфейс InitializingBean и метод afterPropertiesSet()","x":-557,"y":160,"width":304,"height":107},
+		{"id":"874eedf6d1322330","type":"text","text":"init() метод","x":-253,"y":360,"width":250,"height":60},
+		{"id":"4dbf905d46c7da17","type":"text","text":"Создание бинов","x":-3367,"y":-366,"width":250,"height":60},
+		{"id":"2f097228a9601602","type":"text","text":"BeanFactoryPostProcessor","x":-2909,"y":-364,"width":299,"height":58},
+		{"id":"354e157e9d6abd32","type":"text","text":"postProcessBeanFactory","x":-2909,"y":-184,"width":299,"height":52}
 	],
 	"edges":[
 		{"id":"3e1fe2e963025846","fromNode":"e96bf1aebbc41442","fromSide":"top","toNode":"29e16c8b7b188e20","toSide":"bottom"},
@@ -48,6 +48,7 @@
 		{"id":"eef52bb6dd918330","fromNode":"74baa05feba5afbf","fromSide":"right","toNode":"140f4b5813ac57cd","toSide":"left"},
 		{"id":"32d5c61171d05a09","fromNode":"874eedf6d1322330","fromSide":"top","toNode":"134efb98dd080a04","toSide":"bottom"},
 		{"id":"c2f389d4ecf6ce3b","fromNode":"874eedf6d1322330","fromSide":"top","toNode":"50269a0a56a5fa6c","toSide":"bottom"},
-		{"id":"804029c2e9925f2e","fromNode":"874eedf6d1322330","fromSide":"top","toNode":"e96bf1aebbc41442","toSide":"bottom"}
+		{"id":"804029c2e9925f2e","fromNode":"874eedf6d1322330","fromSide":"top","toNode":"e96bf1aebbc41442","toSide":"bottom"},
+		{"id":"4a3dd5da498e0fe0","fromNode":"354e157e9d6abd32","fromSide":"right","toNode":"d2a73f266550bd4e","toSide":"left"}
 	]
 }

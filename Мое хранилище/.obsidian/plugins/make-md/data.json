@@ -39,8 +39,8 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
+    "//Заметки",
     "//Dev",
-    "//Dev/Dev/SQL",
     "//Dev/Dev/Spring"
   ],
   "expandFolderOnClick": true,

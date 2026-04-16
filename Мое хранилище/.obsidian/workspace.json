@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "090e7f822aec7c4e",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "dcfcee5875118002",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Dev/Spring/@Transactional.canvas",
+                "file": "Dev/Spring/Lifecycle bean.canvas",
                 "viewState": {
-                  "x": -377.472625698324,
-                  "y": -601.8281443377447,
-                  "zoom": -0.9857242948473294
+                  "x": 284.1992492753337,
+                  "y": -152.73691717799403,
+                  "zoom": -0.7847432284289968
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "@Transactional"
+              "title": "Lifecycle bean"
             }
           }
         ]
@@ -78,7 +78,7 @@
             }
           },
           {
-            "id": "9b67b8f664dc0170",
+            "id": "db684ad234233f9e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 445.5
   },
   "right": {
     "id": "5be765c42d52b3f0",
@@ -218,24 +218,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "dcfcee5875118002",
   "lastOpenFiles": [
+    "Dev/Инструменты/Kafka.canvas",
+    "Dev/Инструменты/PostgresSQL.canvas",
+    "Dev/Инструменты/Инструменты.md",
+    "Dev/Untitled.md",
+    "Dev/Инструменты/desktop.ini",
+    "Dev/Инструменты",
+    "Dev/Spring/Lifecycle bean.canvas",
+    "Заметки/Распределенные транзакции в микросервисной архитектуре, обработка распределенных транзакций.md",
+    "Dev/Spring/Spring Data JPA.canvas",
+    "Dev/Spring/Spring vs Spring Boot.canvas",
+    "Dev/Kafka.canvas",
+    "Dev/Spring/Starter.canvas",
+    "Домашняя.md",
+    "Dev/Spring/@Transactional.canvas",
     "Dev/SQL/Стратегии JOIN.canvas",
     "Dev/Проектные вопросы/Стенды.canvas",
     "Dev/Проектные вопросы/Проектные вопросы.md",
     "Dev/Проектные вопросы",
-    "Dev/Kafka.canvas",
-    "Dev/Spring/Spring Data JPA.canvas",
-    "Dev/Spring/@Transactional.canvas",
-    "Домашняя.md",
-    "Dev/Spring/Lifecycle bean.canvas",
     "Вопросы от сбер.md",
     "Dev/Java/HashCode и Equals.canvas",
     "Dev/SQL/SQL.md",
-    "Dev/SQL/Explain.canvas",
-    "Dev/Парадигмы/REST.canvas",
-    "Dev/SQL/Блокировки строк.canvas",
-    "Dev/SQL/Индексы.canvas",
     "Dev/SQL",
     "Dev/Парадигмы/Паттерны отказоустойчивости",
     "Dev/Парадигмы/SOLID.md",
@@ -260,11 +265,6 @@
     "Заметки/Inversion of Control.md",
     "Заметки/Dependency Injection.md",
     "Заметки/Spring Security.md",
-    "Заметки/Spring Data.md",
-    "Заметки/Spring WebFlux.md",
-    "Заметки/Spring Web MVC.md",
-    "Tags",
-    "Без названия",
-    "Заметки"
+    "Tags"
   ]
 }
