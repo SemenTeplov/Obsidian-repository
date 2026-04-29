@@ -14,7 +14,6 @@
 		{"id":"d18b511b276d8c57","type":"text","text":"postProcessBeanFactory","x":-2063,"y":-183,"width":303,"height":50},
 		{"id":"d2a73f266550bd4e","type":"text","text":"postProcessBeanDefinitionRegistry","x":-2523,"y":-183,"width":381,"height":51},
 		{"id":"c57ffa85dd7d1503","type":"text","text":"InstantiationAwareBeanPostProcessor","x":-1307,"y":-556,"width":402,"height":58},
-		{"id":"2f552e107afc5292","type":"text","text":"postProcessProperties","x":-857,"y":-367,"width":250,"height":60},
 		{"id":"74baa05feba5afbf","type":"text","text":"postProcessAfterInstantion","x":-1249,"y":-188,"width":286,"height":55},
 		{"id":"3d90a90fb3a7399c","type":"text","text":"postProcessBeforeInstantion","x":-1680,"y":-183,"width":316,"height":50},
 		{"id":"50269a0a56a5fa6c","type":"text","text":"XML - опция init-method","x":47,"y":160,"width":277,"height":60},
@@ -22,7 +21,8 @@
 		{"id":"874eedf6d1322330","type":"text","text":"init() метод","x":-253,"y":360,"width":250,"height":60},
 		{"id":"4dbf905d46c7da17","type":"text","text":"Создание бинов","x":-3367,"y":-366,"width":250,"height":60},
 		{"id":"2f097228a9601602","type":"text","text":"BeanFactoryPostProcessor","x":-2909,"y":-364,"width":299,"height":58},
-		{"id":"354e157e9d6abd32","type":"text","text":"postProcessBeanFactory","x":-2909,"y":-184,"width":299,"height":52}
+		{"id":"354e157e9d6abd32","type":"text","text":"postProcessBeanFactory","x":-2909,"y":-184,"width":299,"height":52},
+		{"id":"2f552e107afc5292","type":"text","text":"postProcessProperties","x":-910,"y":-304,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"3e1fe2e963025846","fromNode":"e96bf1aebbc41442","fromSide":"top","toNode":"29e16c8b7b188e20","toSide":"bottom"},

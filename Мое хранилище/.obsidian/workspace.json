@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "090e7f822aec7c4e",
+        "id": "d61049998c9f4b7f",
         "type": "tabs",
         "children": [
           {
-            "id": "dcfcee5875118002",
+            "id": "e1468653fa2b3936",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Dev/Spring/Lifecycle bean.canvas",
-                "viewState": {
-                  "x": 284.1992492753337,
-                  "y": -152.73691717799403,
-                  "zoom": -0.7847432284289968
-                }
+                "file": "Dev/backend/web/Структура проекта.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Lifecycle bean"
+              "icon": "lucide-file",
+              "title": "Структура проекта"
             }
           }
         ]
@@ -56,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:JJG",
+                "query": "tag:#Git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +75,7 @@
             }
           },
           {
-            "id": "db684ad234233f9e",
+            "id": "c49bf8bb3d334c38",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -218,28 +215,47 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dcfcee5875118002",
+  "active": "e1468653fa2b3936",
   "lastOpenFiles": [
-    "Dev/Инструменты/Kafka.canvas",
-    "Dev/Инструменты/PostgresSQL.canvas",
+    "Dev/backend/web/web.md",
+    "Dev/backend/web/Структура проекта.md",
+    "Dev/backend/web/Структура проекта.md",
+    "Dev/backend/web",
+    "Dev/backend/backend.md",
+    "Dev/backend",
+    "Dev/Инструменты/git_guide/Git/Git.md",
+    "Dev/Инструменты/git_guide/sourse/sourse.md",
+    "Dev/Инструменты/git_guide/sourse/git_stages.png",
+    "Dev/Инструменты/git_guide/git_guide.md",
+    "Dev/Инструменты/git_guide/sourse",
+    "Dev/Инструменты/git_guide",
+    "Заметки/Изучение системы контроля версий на примере Git.md",
+    "Домашняя.md",
     "Dev/Инструменты/Инструменты.md",
+    "Dev/Инструменты/Git/Untitled.md",
+    "Dev/Инструменты/git_guide/Git",
+    "Tags/Untitled.md",
+    "Заметки/Заметки.md",
+    "Untitled.md",
+    "Заметки/Изучение основ Spring.md",
+    "Dev/Spring/Lifecycle bean.canvas",
+    "Dev/Инструменты/PostgresSQL.canvas",
+    "Dev/SQL/Стратегии JOIN.canvas",
+    "Dev/SQL/Блокировки строк.canvas",
+    "Dev/SQL/Explain.canvas",
+    "Dev/SQL/Индексы.canvas",
+    "Заметки/Жизненный цикл Bean.md",
+    "Dev/Инструменты/Kafka.canvas",
     "Dev/Untitled.md",
     "Dev/Инструменты/desktop.ini",
     "Dev/Инструменты",
-    "Dev/Spring/Lifecycle bean.canvas",
     "Заметки/Распределенные транзакции в микросервисной архитектуре, обработка распределенных транзакций.md",
     "Dev/Spring/Spring Data JPA.canvas",
     "Dev/Spring/Spring vs Spring Boot.canvas",
     "Dev/Kafka.canvas",
-    "Dev/Spring/Starter.canvas",
-    "Домашняя.md",
-    "Dev/Spring/@Transactional.canvas",
-    "Dev/SQL/Стратегии JOIN.canvas",
-    "Dev/Проектные вопросы/Стенды.canvas",
     "Dev/Проектные вопросы/Проектные вопросы.md",
     "Dev/Проектные вопросы",
     "Вопросы от сбер.md",
-    "Dev/Java/HashCode и Equals.canvas",
     "Dev/SQL/SQL.md",
     "Dev/SQL",
     "Dev/Парадигмы/Паттерны отказоустойчивости",
@@ -247,24 +263,6 @@
     "Заметки/Способы создания потоков.md",
     "Заметки/Состояния потоков, методы при работе с потоками.md",
     "Заметки/Проблемы многопоточности. Их решение. Мониторинг.md",
-    "Заметки/@Autowired.md",
-    "Dev/Java",
-    "Dev/Spring",
-    "Dev/Парадигмы",
-    "Dev/Dev.md",
-    "Untitled.md",
-    "Dev",
-    "Заметки/Control plane.md",
-    "Заметки/Безымянная Kanban-доска.md",
-    "Kanban-доска.md",
-    "Заметки/Tomcat.md",
-    "Заметки/Изучение основ Spring.md",
-    "Заметки/Spring Cloud.md",
-    "Заметки/Spring Framework.md",
-    "Заметки/Spring Boot.md",
-    "Заметки/Inversion of Control.md",
-    "Заметки/Dependency Injection.md",
-    "Заметки/Spring Security.md",
-    "Tags"
+    "Заметки/@Autowired.md"
   ]
 }
