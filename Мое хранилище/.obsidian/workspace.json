@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d61049998c9f4b7f",
+        "id": "5dbf1bde822f6bff",
         "type": "tabs",
         "children": [
           {
-            "id": "e1468653fa2b3936",
+            "id": "ed56540a6187a08c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -215,11 +215,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e1468653fa2b3936",
+  "active": "ed56540a6187a08c",
   "lastOpenFiles": [
+    "Dev/backend/web/DTO (Java + Spring).md",
+    "Dev/backend/web/Структура проекта.md",
+    "Dev/backend/web/Entity (Java + Spring).md",
+    "Заметки/2026-04-29.md",
     "EverGreen.canvas",
     "Вопросы от сбер.md",
-    "Dev/backend/web/Структура проекта.md",
     "Dev/backend/web/web.md",
     "Dev/backend/web",
     "Dev/backend/backend.md",
@@ -260,8 +263,6 @@
     "Dev/Парадигмы/Паттерны отказоустойчивости",
     "Dev/Парадигмы/SOLID.md",
     "Заметки/Способы создания потоков.md",
-    "Заметки/Состояния потоков, методы при работе с потоками.md",
-    "Заметки/Проблемы многопоточности. Их решение. Мониторинг.md",
-    "Заметки/@Autowired.md"
+    "Заметки/Состояния потоков, методы при работе с потоками.md"
   ]
 }
