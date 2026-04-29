@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "c49bf8bb3d334c38",
+            "id": "7446e11d36cef050",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 265.5
   },
   "right": {
     "id": "5be765c42d52b3f0",
@@ -179,8 +179,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -209,17 +209,18 @@
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
+      "periodic-notes:Open today": false,
       "obsidian-kanban:Создать новую доску": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false,
-      "periodic-notes:Open today": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "e1468653fa2b3936",
   "lastOpenFiles": [
+    "EverGreen.canvas",
+    "Вопросы от сбер.md",
+    "Dev/backend/web/Структура проекта.md",
     "Dev/backend/web/web.md",
-    "Dev/backend/web/Структура проекта.md",
-    "Dev/backend/web/Структура проекта.md",
     "Dev/backend/web",
     "Dev/backend/backend.md",
     "Dev/backend",
@@ -252,10 +253,8 @@
     "Заметки/Распределенные транзакции в микросервисной архитектуре, обработка распределенных транзакций.md",
     "Dev/Spring/Spring Data JPA.canvas",
     "Dev/Spring/Spring vs Spring Boot.canvas",
-    "Dev/Kafka.canvas",
     "Dev/Проектные вопросы/Проектные вопросы.md",
     "Dev/Проектные вопросы",
-    "Вопросы от сбер.md",
     "Dev/SQL/SQL.md",
     "Dev/SQL",
     "Dev/Парадигмы/Паттерны отказоустойчивости",

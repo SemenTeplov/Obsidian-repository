@@ -43,7 +43,8 @@
     "//Dev/Dev/Инструменты/Dev/Инструменты/Git",
     "//Dev/Dev/Инструменты/Dev/Инструменты/git_guide/Dev/Инструменты/git_guide/Git",
     "//Dev/Dev/backend",
-    "//Dev/Dev/backend/Dev/backend/web"
+    "//Dev/Dev/backend/Dev/backend/web",
+    "//Dev"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
