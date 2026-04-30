@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "520029bc413f5758",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "a43f789a2cec885b",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Мое хранилище/.obsidian/workspace.json",
-                "bFile": "Мое хранилище/.obsidian/workspace.json",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "Dev/backend/web/Service (Java + Spring).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Index)"
+              "icon": "lucide-file",
+              "title": "Service (Java + Spring)"
             }
           }
         ]
@@ -216,14 +215,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "a43f789a2cec885b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Dev/backend/web/Структура проекта.md",
+    "Dev/backend/web/Service (Java + Spring).md",
+    "Dev/backend/web/Mapper (Java + Spring).md",
     "Dev/Инструменты/git_guide/Git/Git.md",
+    "conflict-files-obsidian-git.md",
     "Домашняя.md",
     "Заметки/Без названия.base",
     "Dev/Инструменты/git_guide/sourse/reset.png",
-    "Dev/backend/web/Структура проекта.md",
     "Dev/backend/web/DTO (Java + Spring).md",
     "Dev/backend/web/Entity (Java + Spring).md",
     "Заметки/2026-04-29.md",
@@ -263,8 +264,6 @@
     "Dev/Проектные вопросы/Проектные вопросы.md",
     "Dev/Проектные вопросы",
     "Dev/SQL/SQL.md",
-    "Dev/SQL",
-    "Dev/Парадигмы/SOLID.md",
-    "Заметки/Способы создания потоков.md"
+    "Dev/SQL"
   ]
 }
