@@ -11,12 +11,15 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "split-diff-view",
               "state": {
-                "path": "Dev/Инструменты/git_guide/Git"
+                "aFile": "Мое хранилище/.makemd/fileCache.mdc",
+                "bFile": "Мое хранилище/.makemd/fileCache.mdc",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Git"
+              "icon": "diff",
+              "title": "Diff: fileCache.mdc  (Index)"
             }
           }
         ]
@@ -213,10 +216,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5edd425320d46e65",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Dev/Инструменты/git_guide/Git/Git.md",
     "conflict-files-obsidian-git.md",
+    "Dev/Инструменты/git_guide/Git/Git.md",
     "Домашняя.md",
     "Заметки/Без названия.base",
     "Dev/Инструменты/git_guide/sourse/reset.png",
