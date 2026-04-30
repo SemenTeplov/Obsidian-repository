@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "d3fcc68acb03c23f",
+            "id": "edd55db4e857bdb9",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -217,6 +217,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Домашняя.md",
     "Dev/backend/web/Структура проекта.md",
     "Dev/backend/web/DTO (Java + Spring).md",
     "Dev/backend/web/Entity (Java + Spring).md",
@@ -234,7 +235,6 @@
     "Dev/Инструменты/git_guide/sourse",
     "Dev/Инструменты/git_guide",
     "Заметки/Изучение системы контроля версий на примере Git.md",
-    "Домашняя.md",
     "Dev/Инструменты/Инструменты.md",
     "Dev/Инструменты/Git/Untitled.md",
     "Dev/Инструменты/git_guide/Git",
