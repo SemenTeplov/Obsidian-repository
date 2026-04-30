@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ad315e1b95edfbc0",
+        "id": "18fda7b88587965b",
         "type": "tabs",
         "children": [
           {
-            "id": "ab01a650a67b62ab",
+            "id": "acc2884235b9416c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Мое хранилище/.trash/Вопросы от сбер.md",
+                "bFile": "Мое хранилище/.trash/Вопросы от сбер.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Вопросы от сбер  (Index)"
             }
           }
         ]
@@ -200,7 +205,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5edd425320d46e65",
+  "active": "1d8cb34e75e41e60",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Dev/Инструменты/git_guide/Git/Git.md",
