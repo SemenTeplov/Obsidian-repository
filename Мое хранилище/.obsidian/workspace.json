@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d61049998c9f4b7f",
+        "id": "774b0c45ce8b6ebf",
         "type": "tabs",
         "children": [
           {
-            "id": "e1468653fa2b3936",
+            "id": "7b372e4da4790ef5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dev/backend/web/Структура проекта.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Структура проекта"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -73,23 +69,12 @@
               "icon": "lucide-bookmark",
               "title": "Закладки"
             }
-          },
-          {
-            "id": "c49bf8bb3d334c38",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 281.5
   },
   "right": {
     "id": "5be765c42d52b3f0",
@@ -215,11 +200,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e1468653fa2b3936",
+  "active": "7b372e4da4790ef5",
   "lastOpenFiles": [
+    "Dev/backend/web/Структура проекта.md",
+    "Домашняя.md",
     "Dev/backend/web/web.md",
-    "Dev/backend/web/Структура проекта.md",
-    "Dev/backend/web/Структура проекта.md",
     "Dev/backend/web",
     "Dev/backend/backend.md",
     "Dev/backend",
@@ -230,7 +215,6 @@
     "Dev/Инструменты/git_guide/sourse",
     "Dev/Инструменты/git_guide",
     "Заметки/Изучение системы контроля версий на примере Git.md",
-    "Домашняя.md",
     "Dev/Инструменты/Инструменты.md",
     "Dev/Инструменты/Git/Untitled.md",
     "Dev/Инструменты/git_guide/Git",

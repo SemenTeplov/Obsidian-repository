@@ -1,0 +1,9 @@
+diff --git a/Мое хранилище/.obsidian/workspace.json b/Мое хранилище/.obsidian/workspace.json
+index 000000..000000 100644
+--- a/Мое хранилище/.obsidian/workspace.json
++++ b/Мое хранилище/.obsidian/workspace.json
+@@ -20,2 +20,2 @@
+-              "icon": "lucide-file",
+-              "title": "Структура проекта"
++              "icon": "diff",
++              "title": "Diff: workspace.json  (Working Tree)"
