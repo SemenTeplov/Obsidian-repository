@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "774b0c45ce8b6ebf",
+        "id": "ad315e1b95edfbc0",
         "type": "tabs",
         "children": [
           {
-            "id": "7b372e4da4790ef5",
+            "id": "ab01a650a67b62ab",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -200,18 +200,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7b372e4da4790ef5",
+  "active": "5edd425320d46e65",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Dev/Инструменты/git_guide/Git/Git.md",
+    "Dev/Инструменты/git_guide/git_guide.md",
+    "Текстовый документ.txt",
+    "Dev/backend/web/Entity (Java + Spring).md",
     "Dev/backend/web/Структура проекта.md",
+    "Dev/backend/web/DTO (Java + Spring).md",
     "Домашняя.md",
     "Dev/backend/web/web.md",
     "Dev/backend/web",
     "Dev/backend/backend.md",
     "Dev/backend",
-    "Dev/Инструменты/git_guide/Git/Git.md",
     "Dev/Инструменты/git_guide/sourse/sourse.md",
     "Dev/Инструменты/git_guide/sourse/git_stages.png",
-    "Dev/Инструменты/git_guide/git_guide.md",
     "Dev/Инструменты/git_guide/sourse",
     "Dev/Инструменты/git_guide",
     "Заметки/Изучение системы контроля версий на примере Git.md",
@@ -242,11 +246,7 @@
     "Вопросы от сбер.md",
     "Dev/SQL/SQL.md",
     "Dev/SQL",
-    "Dev/Парадигмы/Паттерны отказоустойчивости",
     "Dev/Парадигмы/SOLID.md",
-    "Заметки/Способы создания потоков.md",
-    "Заметки/Состояния потоков, методы при работе с потоками.md",
-    "Заметки/Проблемы многопоточности. Их решение. Мониторинг.md",
-    "Заметки/@Autowired.md"
+    "Заметки/Способы создания потоков.md"
   ]
 }
