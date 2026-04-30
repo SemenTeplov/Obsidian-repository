@@ -4,40 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "382f115919cf6c96",
+        "id": "d70996cb40d6b269",
         "type": "tabs",
         "children": [
           {
-            "id": "d17c68b68283d715",
+            "id": "6894adcf1c36ddec",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Мое хранилище/.trash/Untitled 5.md",
-                "bFile": "Мое хранилище/.trash/Untitled 5.md",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Untitled 5  (Index)"
-            }
-          },
-          {
-            "id": "45787af9183ed7ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Новая вкладка"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,10 +200,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "45787af9183ed7ef",
+  "active": "6894adcf1c36ddec",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Dev/Инструменты/git_guide/Git/Git.md",
+    "Заметки/Без названия.base",
+    "Dev/Инструменты/git_guide/sourse/reset.png",
+    "Dev/Инструменты/git_guide/sourse/sourse.md",
+    "Dev/Инструменты/git_guide/sourse/git_stages.png",
+    "conflict-files-obsidian-git.md",
     "Dev/Инструменты/git_guide/git_guide.md",
     "Текстовый документ.txt",
     "Dev/backend/web/Entity (Java + Spring).md",
@@ -234,8 +218,6 @@
     "Dev/backend/web",
     "Dev/backend/backend.md",
     "Dev/backend",
-    "Dev/Инструменты/git_guide/sourse/sourse.md",
-    "Dev/Инструменты/git_guide/sourse/git_stages.png",
     "Dev/Инструменты/git_guide/sourse",
     "Dev/Инструменты/git_guide",
     "Заметки/Изучение системы контроля версий на примере Git.md",
@@ -265,7 +247,6 @@
     "Dev/Проектные вопросы",
     "Вопросы от сбер.md",
     "Dev/SQL/SQL.md",
-    "Dev/SQL",
     "Dev/Парадигмы/SOLID.md",
     "Заметки/Способы создания потоков.md"
   ]
