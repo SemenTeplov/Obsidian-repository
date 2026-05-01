@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8d1a3aafe4abd66d",
+        "id": "81a3a7bba743555e",
         "type": "tabs",
         "children": [
           {
-            "id": "f22d2cbde1565c0f",
+            "id": "2e1a7ce3cdd6b92f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -211,8 +211,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f22d2cbde1565c0f",
+  "active": "5edd425320d46e65",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Домашняя.md",
     "Dev/backend/web/Adapter (Java + Spring).md",
     "Dev/backend/web/Структура проекта.md",
@@ -225,7 +226,6 @@
     "Dev/backend/web/Service (Java + Spring).md",
     "Dev/backend/web/Mapper (Java + Spring).md",
     "Dev/Инструменты/git_guide/Git/Git.md",
-    "conflict-files-obsidian-git.md",
     "Заметки/Без названия.base",
     "Dev/Инструменты/git_guide/sourse/reset.png",
     "Dev/backend/web/DTO (Java + Spring).md",
