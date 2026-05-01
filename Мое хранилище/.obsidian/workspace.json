@@ -11,17 +11,30 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "Dev/backend/web"
+              },
+              "icon": "lucide-file",
+              "title": "web"
+            }
+          },
+          {
+            "id": "f9acf61d07956b5f",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Домашняя.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Домашняя"
+              "title": "conflict-files-obsidian-git"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -215,10 +228,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5edd425320d46e65",
+  "active": "f9acf61d07956b5f",
   "lastOpenFiles": [
-    "Домашняя.md",
     "conflict-files-obsidian-git.md",
+    "Dev/backend/web/web.md",
+    "Dev/backend/backend.md",
+    "Домашняя.md",
     "Dev/backend/web/UserCase (Java + Spring).md",
     "Dev/backend/web/Service (Java + Spring).md",
     "Dev/backend/web/Repository (Java + Spring).md",
@@ -237,9 +252,7 @@
     "Dev/backend/web/Entity (Java + Spring).md",
     "Dev/backend/web/Структура проекта.md",
     "Dev/backend/web/DTO (Java + Spring).md",
-    "Dev/backend/web/web.md",
     "Dev/backend/web",
-    "Dev/backend/backend.md",
     "Dev/backend",
     "Dev/Инструменты/git_guide/sourse",
     "Dev/Инструменты/git_guide",

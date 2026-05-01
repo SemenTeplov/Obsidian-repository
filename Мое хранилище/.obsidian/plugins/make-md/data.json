@@ -40,8 +40,6 @@
   "expandedSpaces": [
     "/",
     "//Dev",
-    "//Dev/Dev/Инструменты",
-    "//Dev/Dev/backend",
     "//Dev/Dev/backend/Dev/backend/web"
   ],
   "expandFolderOnClick": true,
