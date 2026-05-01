@@ -64,6 +64,15 @@ sticker: lucide//file-check
 `git show` - показывает информацию о последнем коммите
 `git show <commit_id>` - показывает информацию об указанном коммите
 `git show --name-only <commit_id>` - показывает названия файлов в указанном коммите
+`git rm --help` - справка о команде
+`git rm <file_name>` - удаление файла из Git репозитория
+`git rm <file_name> --force` - форсированное (принудительное) удаление файла
+`git rm <file_name> --recursive` - удаление каталога
+`git clean --help` - справка о команде
+`git clean -f` - очистка Git от файлов
+`git clean -d -f` - очистка Git от пустых файлов
+`git clean -f -n` - пробная очистка
+`git clean -f -q - очистка без комментариев
 
 ![[Dev/Инструменты/git_guide/sourse/git_stages.png]]
 

@@ -40,7 +40,10 @@
   "expandedSpaces": [
     "/",
     "//Dev",
-    "//Dev/Dev/backend/Dev/backend/web"
+    "//Dev/Dev/backend/Dev/backend/web",
+    "//Dev/Dev/Инструменты",
+    "//Dev/Dev/Инструменты/Dev/Инструменты/git_guide",
+    "//Dev/Dev/Инструменты/Dev/Инструменты/git_guide/Dev/Инструменты/git_guide/Git"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

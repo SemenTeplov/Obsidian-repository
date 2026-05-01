@@ -13,10 +13,10 @@
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "Dev/backend/web"
+                "path": "Dev/Инструменты/git_guide/Git"
               },
               "icon": "lucide-file",
-              "title": "web"
+              "title": "Git"
             }
           }
         ]
@@ -213,8 +213,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5edd425320d46e65",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Dev/Инструменты/git_guide/Git/Git.md",
     "conflict-files-obsidian-git.md",
     "Dev/backend/web/web.md",
     "Dev/backend/backend.md",
@@ -227,7 +228,6 @@
     "Dev/backend/web/GlobalExceptionHandler(Java + Spring).md",
     "Dev/backend/web/Controller(Java + Spring).md",
     "Dev/backend/web/Adapter (Java + Spring).md",
-    "Dev/Инструменты/git_guide/Git/Git.md",
     "Заметки/Без названия.base",
     "Dev/Инструменты/git_guide/sourse/reset.png",
     "Dev/Инструменты/git_guide/sourse/sourse.md",
