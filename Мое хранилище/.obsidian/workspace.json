@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d70996cb40d6b269",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "6894adcf1c36ddec",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Домашняя.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Домашняя"
             }
           }
         ]
@@ -69,8 +73,19 @@
               "icon": "lucide-bookmark",
               "title": "Закладки"
             }
+          },
+          {
+            "id": "4ce4fa303dd1eeda",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -200,7 +215,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6894adcf1c36ddec",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Dev/Инструменты/git_guide/Git/Git.md",
     "Заметки/Без названия.base",
