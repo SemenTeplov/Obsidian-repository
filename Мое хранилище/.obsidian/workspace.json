@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c32056a231f01f6f",
+        "id": "8d1a3aafe4abd66d",
         "type": "tabs",
         "children": [
           {
-            "id": "a35368d89f8d20dd",
+            "id": "f22d2cbde1565c0f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -71,7 +71,7 @@
             }
           },
           {
-            "id": "70ba5cd39190b374",
+            "id": "ab4519077c1a2de5",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -211,8 +211,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a35368d89f8d20dd",
+  "active": "f22d2cbde1565c0f",
   "lastOpenFiles": [
+    "Домашняя.md",
     "Dev/backend/web/Adapter (Java + Spring).md",
     "Dev/backend/web/Структура проекта.md",
     "Dev/backend/web/UserCase (Java + Spring).md",
@@ -221,7 +222,6 @@
     "Dev/backend/web/GlobalExceptionHandler(Java + Spring).md",
     "Dev/backend/web/Controller(Java + Spring).md",
     "Dev/backend/web/Repository (Java + Spring).md",
-    "Домашняя.md",
     "Dev/backend/web/Service (Java + Spring).md",
     "Dev/backend/web/Mapper (Java + Spring).md",
     "Dev/Инструменты/git_guide/Git/Git.md",
