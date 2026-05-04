@@ -11,14 +11,12 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Домашняя.md",
-                "mode": "source",
-                "source": false
+                "path": "Dev/Инструменты/git_guide/Git"
               },
               "icon": "lucide-file",
-              "title": "Домашняя"
+              "title": "Git"
             }
           }
         ]
@@ -75,7 +73,7 @@
             }
           },
           {
-            "id": "80775e07e579a338",
+            "id": "520ff66645905dcd",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -215,12 +213,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "5edd425320d46e65",
   "lastOpenFiles": [
+    "Dev/Инструменты/git_guide/Git/Git.md",
+    "Dev/backend/web/Entity (Java + Spring).md",
+    "Домашняя.md",
     "Dev/backend/web/Структура проекта.md",
     "Dev/Инструменты/PostgresSQL.canvas",
-    "Домашняя.md",
-    "Dev/Инструменты/git_guide/Git/Git.md",
     "conflict-files-obsidian-git.md",
     "Dev/backend/web/Adapter (Java + Spring).md",
     "Dev/backend/web/UserCase (Java + Spring).md",
@@ -234,7 +233,6 @@
     "Заметки/Без названия.base",
     "Dev/Инструменты/git_guide/sourse/reset.png",
     "Dev/backend/web/DTO (Java + Spring).md",
-    "Dev/backend/web/Entity (Java + Spring).md",
     "Заметки/2026-04-29.md",
     "EverGreen.canvas",
     "Вопросы от сбер.md",
