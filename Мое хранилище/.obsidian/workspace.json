@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "81a3a7bba743555e",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "2e1a7ce3cdd6b92f",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Домашняя.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Домашняя"
             }
           }
         ]
@@ -71,7 +75,7 @@
             }
           },
           {
-            "id": "ab4519077c1a2de5",
+            "id": "80775e07e579a338",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -211,12 +215,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5edd425320d46e65",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Домашняя.md",
-    "Dev/backend/web/Adapter (Java + Spring).md",
     "Dev/backend/web/Структура проекта.md",
+    "Dev/Инструменты/PostgresSQL.canvas",
+    "Домашняя.md",
+    "Dev/Инструменты/git_guide/Git/Git.md",
+    "conflict-files-obsidian-git.md",
+    "Dev/backend/web/Adapter (Java + Spring).md",
     "Dev/backend/web/UserCase (Java + Spring).md",
     "Dev/backend/web/Port (Java + Spring).md",
     "Dev/backend/web/web.md",
@@ -225,7 +231,6 @@
     "Dev/backend/web/Repository (Java + Spring).md",
     "Dev/backend/web/Service (Java + Spring).md",
     "Dev/backend/web/Mapper (Java + Spring).md",
-    "Dev/Инструменты/git_guide/Git/Git.md",
     "Заметки/Без названия.base",
     "Dev/Инструменты/git_guide/sourse/reset.png",
     "Dev/backend/web/DTO (Java + Spring).md",
@@ -247,9 +252,7 @@
     "Dev/Инструменты/git_guide/Git",
     "Tags/Untitled.md",
     "Заметки/Заметки.md",
-    "Untitled.md",
     "Dev/Spring/Lifecycle bean.canvas",
-    "Dev/Инструменты/PostgresSQL.canvas",
     "Dev/SQL/Стратегии JOIN.canvas",
     "Dev/SQL/Блокировки строк.canvas",
     "Dev/SQL/Explain.canvas",

@@ -40,7 +40,9 @@
   "expandedSpaces": [
     "/",
     "//Dev",
-    "//Dev/Dev/backend/Dev/backend/web"
+    "//Dev/Dev/backend/Dev/backend/web",
+    "//Dev/Dev/Инструменты/Dev/Инструменты/git_guide/Dev/Инструменты/git_guide/Git",
+    "//Dev/Dev/backend"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -52,8 +54,8 @@
     "_assets",
     "_blocks"
   ],
-  "newFileLocation": "root",
-  "newFileFolderPath": "",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Заметки",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
@@ -70,13 +72,13 @@
   "fmKeySticker": "sticker",
   "openSpacesOnLaunch": true,
   "indexSVG": false,
-  "readableLineWidth": true,
+  "readableLineWidth": false,
   "autoAddContextsToSubtags": true,
-  "releaseNotesPrompt": 0.8,
+  "releaseNotesPrompt": 0.999,
   "enableDefaultSpaces": true,
   "showSpacePinIcon": true,
   "experimental": false,
-  "systemName": "Vault",
+  "systemName": "Мое хранилище",
   "defaultSpaceTemplate": "",
   "selectedKit": "default",
   "actionMaxSteps": 100,
@@ -103,7 +105,7 @@
     "emojiTriggerChar": ":",
     "flowState": false
   },
-  "firstLaunch": false,
+  "firstLaunch": true,
   "notesPreview": false,
   "editStickerInSidebar": true,
   "overrideNativeMenu": false,
