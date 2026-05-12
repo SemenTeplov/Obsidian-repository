@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "746b2e5f9ef7c068",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "e4b2009eac971d50",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Шаблоны/{{Учеба}}.md",
+                "file": "Домашняя.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "{{Учеба}}"
+              "title": "Домашняя"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "48f0c7af26e84478",
+            "id": "35c70738ac82d7c9",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -84,7 +84,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -214,14 +215,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e4b2009eac971d50",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Шаблоны/{{Учеба}}.md",
     "Заметки/Микросервисная архитектура. Отличительные особенности.Плюсы и минусы.md",
     "Заметки/Многоуровневая архитектура приложений.md",
     "Заметки/Архитектура приложений.md",
     "Шаблоны/{{Идея}}.md",
     "Шаблоны/{{Проект}}.md",
-    "Шаблоны/{{Учеба}}.md",
     "Шаблоны/{{Источник}}.md",
     "Шаблоны/{{Заметка}}.md",
     "Шаблоны/Шаблоны.md",
