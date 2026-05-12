@@ -39,11 +39,9 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Dev",
     "//Dev/Dev/backend/Dev/backend/web",
-    "//Dev/Dev/Инструменты/Dev/Инструменты/git_guide",
-    "//Dev/Dev/Инструменты/Dev/Инструменты/git_guide/Dev/Инструменты/git_guide/Git",
-    "//Dev/Dev/backend"
+    "//Tags",
+    "//Заметки"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -60,7 +58,7 @@
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
-  "inlineContextExpanded": true,
+  "inlineContextExpanded": false,
   "inlineContextProperties": true,
   "inlineContextSectionsExpanded": true,
   "banners": true,
