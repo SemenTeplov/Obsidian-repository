@@ -41,7 +41,9 @@
     "/",
     "//Dev/Dev/backend/Dev/backend/web",
     "//Tags",
-    "//Заметки"
+    "//Заметки",
+    "//Шаблоны",
+    "//Стандарты"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
