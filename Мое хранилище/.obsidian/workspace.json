@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "1620f9e48141e4d9",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "d35d3bee145a8b74",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Домашняя.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Домашняя"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -215,15 +211,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "d35d3bee145a8b74",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Шаблоны/{{Идея}}.md",
+    "Шаблоны/{{Заметка}}.md",
+    "Стандарты/Эмодзи.md",
+    "Заметки/!Управление IT проектами.md",
     "Домашняя.md",
+    "conflict-files-obsidian-git.md",
     "Шаблоны/{{Учеба}}.md",
     "Шаблоны/{{Проект}}.md",
     "Шаблоны/{{Источник}}.md",
-    "Шаблоны/{{Идея}}.md",
-    "Стандарты/Эмодзи.md",
     "Стандарты/Структура папок.md",
     "Dev/backend/web/Mapper (Java + Spring).md",
     "Dev/backend/web/GlobalExceptionHandler(Java + Spring).md",
@@ -250,8 +248,6 @@
     "Dev/backend",
     "Dev/Инструменты/git_guide/sourse",
     "Dev/Инструменты/git_guide",
-    "Заметки/Изучение системы контроля версий на примере Git.md",
-    "Dev/Инструменты/Инструменты.md",
     "Dev/Инструменты/git_guide/Git",
     "Dev/Spring/Lifecycle bean.canvas",
     "Dev/Инструменты/PostgresSQL.canvas",
