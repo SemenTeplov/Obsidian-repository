@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Домашняя"
             }
+          },
+          {
+            "id": "6863261b89beed38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,8 +99,7 @@
               "title": "mk-path-view"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -215,14 +229,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "1d8cb34e75e41e60",
   "lastOpenFiles": [
+    "Домашняя.md",
+    "conflict-files-obsidian-git.md",
     "Шаблоны/{{Идея}}.md",
     "Шаблоны/{{Заметка}}.md",
     "Стандарты/Эмодзи.md",
     "Заметки/!Управление IT проектами.md",
-    "Домашняя.md",
-    "conflict-files-obsidian-git.md",
     "Шаблоны/{{Учеба}}.md",
     "Шаблоны/{{Проект}}.md",
     "Шаблоны/{{Источник}}.md",
