@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "af0c161e0951d84c",
+        "id": "119512cad8dd9291",
         "type": "tabs",
         "children": [
           {
-            "id": "0356f47316a5f1c8",
+            "id": "7c5f736c3f48deb4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -211,11 +211,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0356f47316a5f1c8",
+  "active": "7c5f736c3f48deb4",
   "lastOpenFiles": [
+    "Заметки/!Управление IT проектами.md",
+    "Заметки/Tomcat.md",
+    "Заметки/Без названия.base",
+    "Заметки/Домашняя.md",
     "Домашняя.md",
     "conflict-files-obsidian-git.md",
-    "Заметки/!Управление IT проектами.md",
     "Шаблоны/{{Идея}}.md",
     "Шаблоны/{{Заметка}}.md",
     "Стандарты/Эмодзи.md",
@@ -236,14 +239,11 @@
     "Dev/backend/web/Repository (Java + Spring).md",
     "Dev/backend/web/Port (Java + Spring).md",
     "Dev/backend/web/Adapter (Java + Spring).md",
-    "Заметки/Без названия.base",
     "Dev/Инструменты/git_guide/sourse/reset.png",
     "Dev/Инструменты/git_guide/sourse/sourse.md",
     "Dev/Инструменты/git_guide/sourse/git_stages.png",
     "Dev/Инструменты/git_guide/git_guide.md",
     "Текстовый документ.txt",
-    "Dev/backend/web/Структура проекта.md",
-    "Dev/backend/web/DTO (Java + Spring).md",
     "Dev/backend/web",
     "Dev/backend",
     "Dev/Инструменты/git_guide/sourse",
