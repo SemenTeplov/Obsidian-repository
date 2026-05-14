@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "af0c161e0951d84c",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "0356f47316a5f1c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Домашняя.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Домашняя"
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -215,11 +211,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "0356f47316a5f1c8",
   "lastOpenFiles": [
-    "Заметки/!Управление IT проектами.md",
     "Домашняя.md",
     "conflict-files-obsidian-git.md",
+    "Заметки/!Управление IT проектами.md",
     "Шаблоны/{{Идея}}.md",
     "Шаблоны/{{Заметка}}.md",
     "Стандарты/Эмодзи.md",
